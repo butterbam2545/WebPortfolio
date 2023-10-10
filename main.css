@@ -144,7 +144,7 @@ li{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    height: 250px;
+    padding: 1rem 0;
     background-color:rgb(243, 232, 232);
 }
 #Content{
