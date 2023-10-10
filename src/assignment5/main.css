@@ -1,0 +1,23 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    background-color:rgb(227, 208, 248);
+    padding: 70px;
+    width: 50px;
+}
+.item{
+    background-color: rgb(243, 230, 170);
+    padding: 20px;
+    margin: 15px;
+}
+.topic{
+    color: white;
+}
+#text1{
+    outline: 0;
+}

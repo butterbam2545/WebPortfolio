@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    scroll-behavior: smooth;
+}
+#headerGrid{
+    height: 8vh;
+    background-color: rgb(242, 179, 179);
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.linkHeader{
+    background-color: rgb(243, 225, 225);
+    font-size: 20px;
+    border-radius: 15px;
+    color: rgb(181, 126, 126);;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    margin-right: 6px;
+}
+a:hover{
+    opacity: 0.7;
+}
+a:active{
+    scale: 0.9;
+}
+#Profile{
+    width: 100%;
+    margin-top: 8px;
+    display: grid;
+    justify-items: center;
+    grid-gap: 8px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "private profile"
+    "hobby skill"
+    "interest interestImg"
+    "contact contact"
+    "reference reference";
+}
+#pic1{
+    max-width: 30%;
+    width: auto;
+    border-radius: 8px;
+    margin: 1rem;
+}
+#pic2{
+    max-width: 25%;
+    width: auto;
+    border-radius: 8px;
+    margin: 1rem;
+}
+#pic3{
+    max-width: 30%;
+    width: auto;
+    border-radius: 10px;
+    margin: 2rem;
+}
+#pic4{
+    max-width: 35%;
+    width: auto;
+    border-radius: 10px;
+    margin: 2rem;
+}
+#ImgProfile{
+    grid-area: profile;
+}
+h1{
+    color: rgb(181, 126, 126);
+    font-size: 40px;
+}
+p{
+    color: rgb(217, 156, 156);
+    font-weight: bold;
+    font-size: 20px;
+}
+li{
+    color: rgb(217, 156, 156);
+    padding: 15px;
+}
+#Private{
+    grid-area: private;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Hobby{
+    grid-area: hobby;
+}
+#Skill{
+    grid-area: skill;
+}
+#Interest{
+    grid-area: interest;
+}
+#InterestImg{
+    grid-area: interestImg;
+}
+#Contact{
+    grid-area: contact;
+}
+#Facebook{
+    color: rgb(217, 156, 156);
+    font-size: 25px;
+}
+#Instagram{
+    color: rgb(217, 156, 156);
+    font-size: 25px;
+}
+#Reference{
+    grid-area: reference;
+}
+#Ref1{
+    color: rgb(217, 156, 156);
+    font-size: 25px;
+}
+#Ref2{
+    color: rgb(217, 156, 156);
+    font-size: 25px;
+}
+#Ref3{
+    color: rgb(217, 156, 156);
+    font-size: 25px;
+}
+#Profile .item{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgb(243, 232, 232);
+}
+#Assignment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 250px;
+    background-color:rgb(243, 232, 232);
+}
+#Content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 60%;
+    text-align: center;
+    grid-gap: 25px;
+}
+#Content .item{
+    width: 100%;
+    background-color: rgb(234, 190, 190);
+    padding: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: beige;
+}
+#Footer{
+	grid-area: Footer;
+	background-color: rgb(242, 179, 179);
+    color: beige;
+    height: 80px;
+    text-align: center;
+    padding: 25px;
+}
+
+/* หลังจากนี้คือ project.html*/
+#ContentProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.itemProject{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 7px;
+    background-color: rgb(242, 179, 179);
+}
+.imgItem{
+    max-width: 50%;
+    border-radius: 10px;
+}
+.textItem{
+    color: beige;
+}
+
+/* CSS สำหรับแท็บเล็ต */
+@media (max-width: 750px){
+    #headerGrid{
+        height: 15vh;
+        justify-content: center;
+    }
+}
+/* CSS สำหรับมือถือ */
+@media only screen and (max-width: 500px) {
+    #headerGrid{
+        height: 30vh;
+        justify-content: center;
+    }
+    #Profile{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "private"
+        "profile"
+        "hobby" 
+        "skill"
+        "interest" 
+        "interestImg"
+        "contact"
+        "reference";
+    }
+    #Content{
+        grid-template-columns: 1fr;
+    }
+/* CSS สำหรับมือถือ จอเล๊กเล๊ก*/
+@media only screen and (max-width: 250px) {
+    h1{
+        color: rgb(181, 126, 126);
+        font-size: 6px ;
+    }
+    p{
+        color: rgb(217, 156, 156);
+        font-size: 6px 
+    }
+    .linkHeader{
+        font-size: 6px ;
+    }
+
+    #Content .item{
+        font-size: 6px ;
+        padding: 0;
+    }
+}
+}

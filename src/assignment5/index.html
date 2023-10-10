@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Blogger</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+<body>
+	<div class="grid">
+
+		<div class="item" id="item1">
+			<h1 class="topic">topic1</h1>
+			<div class="content" id="topic1"></div>
+		</div>
+
+		<div class="item" id="item2">
+			<h1 class="topic">comment1</h1>
+			<div class="content" id="comment1"></div>
+		</div>
+
+		<div class="item" id="item3">
+			<h1 class="topic">comment2</h1>
+			<div class="content" id="comment2"></div>
+		</div>
+
+		<div class="item" id="button">	
+			<textarea name="text1" id="text1"></textarea> 
+			<br/>
+			<button type="button" onclick="postFunction()">Post</button>
+			<button type="button" onclick="clearFunction()">Clear</button>
+		</div>
+	</div>
+	<script src='main.js'></script>
+
+</body>
+</html>

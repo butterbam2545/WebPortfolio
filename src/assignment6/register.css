@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#myForm{
+    background-color: rgb(245, 201, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+}
+.Topic{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+.Require{
+    color: rgb(255, 255, 255);
+}
+.Errormsg{
+    color: rgb(255, 255, 255);
+}
+.Firstname{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Lastname{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Gender{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Birthday{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Email_address{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Username{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Password{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Retype_password{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(221, 138, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SubRe{
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(227, 143, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Sub{
+    color: rgb(227, 143, 143);
+}
+#Re{
+    color: rgb(227, 143, 143);
+}
